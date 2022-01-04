@@ -5,21 +5,22 @@
 To get started with the project, follow the below instructions 
 
 ```
-virtualenv -p python3 py3tf
-source py3tf2/bin/activate
+virtualenv -p python3 .venv
+source .venv/bin/activate
 
-pip install git+https://github.com/neerajvashistha/indic_nlp_library
-pip install git+https://github.com/neerajvashistha/ekphrasis
-
-pip install tensorflow-gpu==1.13.1
-pip install torch==1.3.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
-pip install inltk
+# Use python3.8.10 or similar
 
 git clone https://github.com/neerajvashistha/online-hate-speech-recog.git
 
 cd online-hate-speech-recog
 
+pip install inltk
+
 pip install -r requirements.txt
+
+pip install git+https://github.com/neerajvashistha/indic_nlp_library
+
+pip install git+https://github.com/neerajvashistha/ekphrasis
 
 ```
 
