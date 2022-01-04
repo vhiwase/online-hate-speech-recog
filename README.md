@@ -16,6 +16,8 @@ cd online-hate-speech-recog
 
 pip install inltk
 
+pip install torch==1.10.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+
 pip install -r requirements.txt
 
 pip install git+https://github.com/neerajvashistha/indic_nlp_library
