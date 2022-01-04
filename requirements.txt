@@ -18,7 +18,7 @@ colorama==0.4.3
 cryptography==3.1
 cycler==0.10.0
 cymem==2.0.3
-dataclasses==0.7
+dataclasses
 decorator==4.4.2
 defusedxml==0.6.0
 entrypoints==0.3
@@ -108,9 +108,9 @@ sklearn==0.0
 soupsieve==2.0.1
 spacy==2.3.2
 srsly==1.0.2
-tensorboard==1.13.1
-tensorflow-estimator==1.13.0
-tensorflow-gpu==1.13.1
+tensorboard
+tensorflow-estimator
+tensorflow-gpu
 termcolor==1.1.0
 terminado==0.8.3
 testpath==0.4.4
