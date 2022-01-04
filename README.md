@@ -16,7 +16,9 @@ cd online-hate-speech-recog
 
 pip install inltk
 
-pip install torch==1.10.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch
+# OR
+# pip install torch==1.10.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
 
 pip install -r requirements.txt
 
