@@ -134,3 +134,4 @@ wget==3.2
 widgetsnbextension==3.5.1
 yarl==1.5.1
 zipp==3.1.0
+langdetect==1.0.9
